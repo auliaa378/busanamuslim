@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Toko Busana Muslim</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">BusanaMuslim</a></div>
+            <div class="menu">
+        </div>
+    </nav>
+    </body>
+
+  <header>
+    <h1>Toko Busana Muslim</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Gaya Busana Syar'i yang Elegan</h2>
+    <p>Busana muslim trend, nyaman, dan tetap sesuai syariat</p>
+  </section>
+
+  <section class="produk" id="produk">
+    <h2>Produk Unggulan</h2>
+    <div class="produk-list">
+      <div class="produk-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI1Yh7lrAxBja_AD4HYtipQPU58LAcyDewbAy5cK17gizjWVgVpKUapItGFESZAe0Ao7c&usqp=CAU" alt="Gamis Elegan">
+        <h3>Gamis Elegan</h3>
+        <p>Rp369.000</p>
+        <a
+        href="https://id.shp.ee/huZhySk"
+        target="_blank" class="btn-beli">Beli di Shopee</a>
+        <button onclick="tambahKeKeranjang('Gamis Elegan')">Beli</button>
+      </div>
+      <div class="produk-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqtK5AwcJEsqvDcbyWcv4kVY0iY1Ao5ZlyjQ&s" alt="Hijab Instan">
+        <h3>Hijab Instan</h3>
+        <p>Rp45.000</p>
+        <a
+        href="https://id.shp.ee/THMisNy"
+        target="_blank" class="btn-beli">Beli di Shopee</a>
+        <button onclick="tambahKeKeranjang('Hijab Instan')">Beli</button>
+      </div>
+      <div class="produk-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPhVLqN29M_kTcDnTqbUHG75yC58qZeSwrg&s" alt="Tunik">
+        <h3>Tunik</h3>
+        <p>Rp186.000</p>
+        <a
+        href="https://id.shp.ee/ssNDM5Q"
+        target="_blank" class="btn-beli">Beli di Shopee</a>
+        <button onclick="tambahKeKeranjang('Tunik Modis')">Beli</button>
+      </div>
+      <div class="produk-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVGHAdRazqezXRkN4xNHnD2tz74RHntPJOQ&s" alt="Pashmina Ceruty">
+        <h3>Pashmina Ceruty</h3>
+        <p>Rp60.000</p>
+        <a
+        href="https://id.shp.ee/DgjtzbC"
+        target="_blank" class="btn-beli">Beli di Shopee</a>
+        <button onclick="tambahKeKeranjang('Pashmina Ceruty')">Beli</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="keranjang">
+    <h2>Keranjang Belanja</h2>
+    <ul id="daftarKeranjang"></ul>
+    <p id="totalHarga">Total: Rp0</p>
+    <button onclick="kosongkanKeranjang()">Kosongkan Keranjang</button>
+  </section>
+
+  <section class="tentang" id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Ini adalah toko busana muslim yang berdiri sejak tahun 2018. Dengan adanya toko ini yaitu dapat menghadirkan pilihan pakaian yang nyaman, berkualitas, dan sesuai syariat.</p>
+  </section>
+
+  <section class="testimoni">
+    <h2>Penilaian Barang</h2>
+    <blockquote>
+      "Produknya bagus-bagus, bahannya adem dan nyaman. Recommended banget!"
+      <br><cite>- Rani, Bekasi</cite>
+    </blockquote>
+    <blockquote>
+      "Aku suka banget gamis di sini, modelnya kekinian tapi tetap syar'i."
+      <br><cite>- Anita, Bandung</cite>
+    </blockquote>
+  </section>
+
+  <section class="kontak" id="kontak">
+    <h2>Hubungi Kami Melalui</h2>
+    <form>
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan" rows="4" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <div id="copyright">
+    <div class="wrapper">
+    <p>&copy; 2025 Toko Busana Muslim. All rights reserved.</p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
